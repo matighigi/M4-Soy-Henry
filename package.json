@@ -26,6 +26,16 @@
     "henry-reading-time": "https://d31uz8lwfmyn8g.cloudfront.net/Modules/henry-reading-time-0.1.0.tgz",
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.5.0",
-    "markdown-it-highlightjs": "^3.6.0"
-  }
+    "markdown-it-highlightjs": "^3.6.0",
+    "react": "^18.2.0",
+    "redux": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matighigi/M4-Soy-Henry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matighigi/M4-Soy-Henry/issues"
+  },
+  "homepage": "https://github.com/matighigi/M4-Soy-Henry#readme"
 }

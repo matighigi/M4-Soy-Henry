@@ -6,3 +6,5 @@ app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
   db.sync({ force: true });
 });
+
+//npm run dev para correr el servidor

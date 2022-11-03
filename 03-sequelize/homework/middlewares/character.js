@@ -4,7 +4,7 @@ const router = Router();
 
 router.post('/', async (req, res) => {
     try {
-        const {code, name, age, race, hp, mana, data_added} = req.body
+        const {code, name, age, race, hp, mana, date_added} = req.body
 
         if(!code || !name || !hp || !mana) {
             return res.status(404).send("Falta enviar datos obligatorios")
@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
             race,
             hp,
             mana,
-            data_added
+            date_added
         })
 
         return res.status(201).send(newCharacter)

@@ -28,7 +28,7 @@ module.exports = sequelize => {
       type: DataTypes.FLOAT,
       allowNull: false
     },
-    data_added: {
+    date_added: {
       type: DataTypes.DATEONLY,
       defaultValue: DataTypes.NOW
     }

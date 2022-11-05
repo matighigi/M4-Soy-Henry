@@ -14,6 +14,12 @@ module.exports = sequelize => {
       type: DataTypes.FLOAT,
       allowNull: false,
       unique: 'compositeTuki'
+    },
+    summary: {
+      type: DataTypes.VIRTUAL,
+      get(){
+        return `${this.name} (${Math.floor(this.mana_cost)} points of mana) - Description: ${this.description}`
+      }
     }
   })
 }
